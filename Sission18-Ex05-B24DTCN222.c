@@ -10,7 +10,7 @@ int main(){
 	Studen studen[50];
 	int i;
 	int idSearch;
-	for(i=0;i<2;i++){
+	for(i=0;i<5;i++){
 		printf("MOI NHAP VAO THONG TIN CUA SINH VIEN THU %d\n",i+1);
 		studen[i].id=i+1;
 		
@@ -44,7 +44,7 @@ int main(){
     printf("MOI BAN NHAP VAO ID CUA SINH VIEN MUON TIM");
 	scanf("%d",&idSearch);
 	getchar();
-	for(int i=0;i<2;i++){
+	for(int i=0;i<5;i++){
 		if(studen[i].id==idSearch){
 			printf("DA THAY TEN CUA SINH VIEN VUA TIM THAY\n");
 			printf("MOI NHAP LAI TEN CUA SINH VIEN VUA TIM THAY\n");
