@@ -9,7 +9,7 @@ int main(){
 	}Studen;
 	Studen studen[50];
 	int i;
-	for(int i=0;i<2;i++){
+	for(int i=0;i<5;i++){
 		printf("MOI NHAP VAO THONG TIN CUA SINH VIEN THU %d\n",i+1);
 		studen[i].id=i+1;
 		
@@ -33,7 +33,7 @@ int main(){
 	printf("\n");
 	
 	printf("Thong tin cua sinh vien da nhap:\n");
-    for (i = 0; i < 2; i++) {
+    for (i = 0; i < 5; i++) {
         printf("SV thu %d:\n", i + 1);
         printf("ID: %d\n", studen[i].id);
         printf("TEN: %s\n", studen[i].name);
